@@ -22,8 +22,8 @@ section {
 div {
     display: flex;
     flex-direction: column-reverse;
-    margin-bottom: 10px;
     align-items: center;
+    margin-bottom: 10px;
     background-color: rgba(87, 104, 101, .7);
     color: #FBFBF9;
 }
