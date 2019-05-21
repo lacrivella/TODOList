@@ -1,21 +1,9 @@
+import template from '../src/template-list.js';
+
 const test = QUnit.test;
 
 QUnit.module('templating');
 
-function template(lists) {
-    let checked ='';
-    
-    if(lists.completed) {
-        checked = 'checked';
-    }
-
-    return /*html*/`
-    <div>
-        <input type="checkbox"${checked}>
-        <label for="${lists.label}">${lists.task}</label>
-    <div>
-    `;
-}
 test('template returning checked', function(assert) {
     //Arrange
     // Set up your parameters and expectations

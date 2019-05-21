@@ -6,32 +6,32 @@ const todos = [
     },
     {
         task: 'Volunteer at Art Galleries',
-        label:
+        label: 'galleries',
         completed: false
     },
     {
         task: 'Keep It to Game of Thrones',
-        label:
+        label: 'game-of-thrones',
         completed: true
     },
     {
         task: 'Complain to Noah about Eurovision',
-        label:
-        completed: false
+        label: 'noah-eurovision',
+        completed: true
     },
     {
         task: 'Win Eurovision',
-        label:
+        label: 'win-eurovision',
         completed: false
     },
     {
         task: 'Sleep Forever',
-        label:
+        label: 'sleep',
         completed: false
     },
     {
         task: 'Pet all the Dogs',
-        labe:
+        labe: 'dogs',
         completed: true
     }
 ];
