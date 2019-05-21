@@ -1,5 +1,5 @@
 function template(lists) {
-    let checked ='';
+    let checked = '';
     
     if(lists.completed) {
         checked = 'checked';
