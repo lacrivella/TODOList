@@ -17,7 +17,7 @@ const todos = [
     },
     {
         task: 'Win Eurovision',
-        completed: true
+        completed: false
     },
     {
         task: 'Sleep Forever',
